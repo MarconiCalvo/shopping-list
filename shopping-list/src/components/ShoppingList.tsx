@@ -3,7 +3,7 @@
 
 import React, { useState } from 'react';
 import { ShopItem } from './ShoppingItem';
-import { useShoppingList } from '@/app/hooks/useShoppingList';
+import { useShoppingList } from '@/hooks/useShoppingList';
 import { useRouter } from 'next/navigation';
 import Link from 'next/link';
 

@@ -1,8 +1,8 @@
 'use client'
 import React from "react";
-import Card from '@/app/components/ShoppingCard'
+import Card from '@/components/ShoppingCard'
 import { useParams } from "next/navigation";
-import { useShoppingList } from "@/app/hooks/useShoppingList";
+import { useShoppingList } from "@/hooks/useShoppingList";
 
 const ItemManagerPage = () => {
     const { state } = useShoppingList();

@@ -3,8 +3,8 @@
 
 import { useState, useReducer, useCallback, useEffect } from 'react'
 import { v4 as uuidv4 } from 'uuid'
-import { ShoppingListState, ShoppingItem } from '@/app/types/ShoppingListType'
-import { shoppingListReducer, initialState } from '@/app/reducers/shoppingListReducer'
+import { ShoppingListState, ShoppingItem } from '@/types/ShoppingListType'
+import { shoppingListReducer, initialState } from '@/reducers/shoppingListReducer'
 
 const API_URL = '/api/items';
 

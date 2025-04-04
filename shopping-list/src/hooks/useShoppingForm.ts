@@ -1,7 +1,7 @@
 		//src/hooks/useShoppingForm.ts
         import { useRef, useEffect, useCallback } from "react";
         import { useShoppingList } from "./useShoppingList";
-        import { ShoppingItem } from "@/app/types/ShoppingListType";
+        import { ShoppingItem } from "@/types/ShoppingListType";
         import { useRouter } from "next/navigation";
         
         export function useShoppingForm({ product }: { product?: ShoppingItem }) {

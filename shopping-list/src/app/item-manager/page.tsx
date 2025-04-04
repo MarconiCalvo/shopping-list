@@ -1,5 +1,5 @@
 import React from "react";
-import Card from '@/app/components/ShoppingCard'
+import Card from '@/components/ShoppingCard'
 
 const ItemManagerPage = () => {
     return (

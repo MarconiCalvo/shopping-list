@@ -1,7 +1,7 @@
 //src/components/ShoppingCard.tsx
 'use client'
-import { ShoppingItem } from "@/app/types/ShoppingListType";
-import { useShoppingForm } from "@/app/hooks/useShoppingForm";
+import { ShoppingItem } from "@/types/ShoppingListType";
+import { useShoppingForm } from "@/hooks/useShoppingForm";
 import Image from "next/image";
 import { useState } from "react";
 

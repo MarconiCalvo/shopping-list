@@ -1,6 +1,6 @@
 //src/components/ShoppingItem.tsx
 import React from 'react';
-import { ShoppingItem } from '@/app/types/ShoppingListType';
+import { ShoppingItem } from '@/types/ShoppingListType';
 import Image from 'next/image';
 
 interface ShopItemProps {

@@ -1,4 +1,4 @@
-import { ShopList } from '@/app/components/ShoppingList'
+import { ShopList } from '@/components/ShoppingList'
 
 export default function Home() {
   return (
