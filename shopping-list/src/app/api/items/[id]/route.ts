@@ -1,7 +1,7 @@
 //  src/app/api/items/[id]/route.ts
 
 import { NextResponse } from "next/server";
-import { db } from "../../data-store"
+import { db } from "@/app/api/data-store"
 
 export async function GET(request: Request, { params }: { params: { id: string } }) {
   try {
