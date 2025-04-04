@@ -1,5 +1,5 @@
 //  src/reducers/shoppingListReducer.tsx
-import { ShoppingListState, ShoppingListAction } from "@/types/ShoppingListTypes";
+import { ShoppingListState, ShoppingListAction } from "@/app/types/ShoppingListType";
 
 export const initialState: ShoppingListState = {
     items: [],
